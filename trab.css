@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #DBE9FA;
+    font-size: large;
+}
+
+header {
+    text-align: center;
+    background-color: #040720;
+    color: white;
+    padding: 20px 0;
+}
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo-container {
+    margin-right: 10px; 
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+    
+}
+
+.secondary-navbar {
+    background-color: #B0CFDE;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:hover {
+    background-color: #E6E6FA;
+    color: black;
+}
+
+.imagem1{
+    width: 1050px; 
+    height: 450px; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.apresentacao-section {
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+
+.apresentacao-title {
+    font-size: 30px; 
+    margin-bottom: 15px; 
+}
+
+.img-builds{
+    width: 1050px;
+    height: 450px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.builds-section{
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-tracker{
+    width: 1050px;
+    height: 450px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.tracker-section{
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-news{
+    width: 1050px;
+    height: 450px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.news-section{
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-section{
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 14px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.botao:hover {
+    background-color: #45a049; 
+}
